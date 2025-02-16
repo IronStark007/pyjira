@@ -12,5 +12,7 @@ class PyJiraException(Exception):
         super().__init__(self.message)
 
 
-class RecordNotFoundError(PyJiraException):
-    pass
+class RecordNotFoundError(PyJiraException): ...
+
+
+class RecordAlreadyExistError(PyJiraException): ...

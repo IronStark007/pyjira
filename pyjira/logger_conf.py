@@ -21,7 +21,7 @@ log_config = dict(
     loggers={
         app_settings.logger_name: {
             "handlers": ["default"],
-            "propagate": False,
+            "propagate": True,
             "level": log_level,
         }
     },

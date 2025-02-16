@@ -19,3 +19,9 @@ dev-dependencies = [
     "pytest-cov==6.*",
     "pytest==8.*",
 ]
+
+[tool.coverage.run]
+omit = [
+    "app.py",
+    "databases.py"
+]
