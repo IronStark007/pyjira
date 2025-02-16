@@ -1,0 +1,10 @@
+.idea/
+.python-version
+__pycache__/
+
+# db
+pyjira.db
+
+# unit test
+.coverage
+.DS_Store

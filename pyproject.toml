@@ -1,0 +1,21 @@
+[project]
+name = "pyjira"
+version = "0.1.0"
+description = "A todo app made in python"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+  { name = "Mohd Ali Ansari", email = "ansar326629@gmail.com" },
+]
+
+dependencies = [
+    "case-converter==1.*",
+    "pydantic-settings==2.*",
+    "sqlmodel==0.*",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest-cov==6.*",
+    "pytest==8.*",
+]
