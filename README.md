@@ -4,9 +4,13 @@ PyJira is a lightweight command-line task manager inspired by Jira. It helps you
 
 ### **Features**
 ✅ Add, list, complete, and delete tasks
+
 ✅ SQLite database for persistence
+
 ✅ Clean CLI with easy-to-use commands
+
 ✅ Logging for error tracking
+
 ✅ Simple installation and usage
 
 ---
