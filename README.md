@@ -1,13 +1,45 @@
-# PyJIRA
-An application for todo.
+## **PyJira - A Simple CLI Task Manager** 🚀
 
-# todo:
-# adding logging - done
-# check if I can remove sqlalchemy logs for cli - done
-# unit testing - done
-# making a cli app - in-progress
+PyJira is a lightweight command-line task manager inspired by Jira. It helps you track tasks efficiently using **SQLite** and a simple CLI interface.
 
-# pytest command
+### **Features**
+✅ Add, list, complete, and delete tasks
+✅ SQLite database for persistence
+✅ Clean CLI with easy-to-use commands
+✅ Logging for error tracking
+✅ Simple installation and usage
+
+---
+
+## **Installation**
+
+1. Clone the repository:
+
 ```shell
-pytest --cov=pyjira --cov-report=html tests/
+    git clone https://github.com/yourusername/pyjira.git
+    cd pyjira
 ```
+
+
+2. Install the dependenies:
+
+```shell
+    poetry install
+```
+
+---
+
+## **Usage**
+
+Run the CLI:
+```shell
+    cd pyjira
+    python app.py
+```
+
+
+## **Contributing**
+
+Feel free to fork the repository and submit a PR. Suggestions and improvements are welcome!
+
+---
